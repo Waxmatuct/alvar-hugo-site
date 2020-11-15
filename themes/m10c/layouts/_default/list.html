@@ -7,7 +7,7 @@
           <h2><a class="posts-list-item-title" href="{{ .Permalink }}">{{ .Title }}</a></h2>
           <div class="posts-list-item-description">
             {{ partial "icon.html" (dict "ctx" $ "name" "calendar") }}
-            {{ .PublishDate.Format "Jan 2, 2006" }}
+            {{ .PublishDate.Format "02.01.2006" }}
             <!-- -
             {{ partial "icon.html" (dict "ctx" $ "name" "clock") }}
             {{ .ReadingTime }} минут читать -->
