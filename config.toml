@@ -1,0 +1,50 @@
+baseURL = "https://alvar.ru/"
+languageCode = "ru-ru"
+title = "Дмитрий Плетнев"
+theme = "m10c"
+paginate = 10
+
+[params]
+author = "Alvar"
+description = "Веб-дизайнер, верстальщик, разработчик"
+menu_item_separator = " • "
+avatar = "ava.jpg"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Главная"
+    url = "/"
+  [[menu.main]]
+    identifier = "tags"
+    name = "Тэги"
+    url = "/tags/"
+  [[menu.main]]
+    identifier = "portfolio"
+    name = "Портфолио"
+    url = "/portfolio/"
+
+[[params.social]]
+  name = "github"
+  url = "https://github.com/vaga"
+
+[[params.social]]
+  name = "instagram"
+  url = "https://vk.com/vaga"
+
+[[params.social]]
+  name = "facebook"
+  url = "https://vk.com/vaga"
+
+[[params.social]]
+  name = "youtube"
+  url = "https://vk.com/vaga"
+
+[params.style]
+  darkestColor = "#1E1E1E"
+  darkColor = "#2e2e30"
+  bodyBg = "#111111"
+  #primaryColor = "#50AF7B"
+  primaryColor = "#5fa664"
+  lightColor = "#ccc"
+  lightestColor = "#fff"
