@@ -41,10 +41,10 @@ avatar = "ava.jpg"
   url = "https://vk.com/vaga"
 
 [params.style]
-  darkestColor = "#1E1E1E"
-  darkColor = "#2e2e30"
+  darkestColor = "#1F252A"
+  darkColor = "#343D46"
   bodyBg = "#111111"
   #primaryColor = "#50AF7B"
-  primaryColor = "#62d26a"
+  primaryColor = "#99C794"
   lightColor = "#ccc"
   lightestColor = "#fff"
