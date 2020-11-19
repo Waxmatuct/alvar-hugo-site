@@ -8,15 +8,23 @@
   text-align: center;
   a {
   // font-size: 1.250em;
+  text-transform: uppercase;
+  font-weight: 700;
   margin: 0 0.3em;
-  border-bottom: 1px dotted $primary-color;
+  color: $light-color;
+  border-bottom: 2px solid $dark-color;
+  }
+  a:hover {
+    color: $primary-color;
+    border-bottom: 2px solid $primary-color;
+
   }
 }
 .app-header-avatar {
   max-width: 15rem;
   max-height: 15rem;
   border-radius: 100%;
-  // border: 0.5rem solid $primary-color;
+  // border: 0.5rem solid $dark-color;
 }
 
 .app-container {
@@ -25,11 +33,21 @@
 }
 
 .app-header-social {
-  font-size: 1.5em;
-  color: $lightest-color;
-  margin: 0.5em 0;
+  font-size: 1em;
+  margin: 1.5em 0;
   a {
-    margin: 0 0.1em;
+    margin: 0 .1em;
+    color: $light-color;
+    width: 2.1rem;
+    display: inline-block;
+    height: 2.1rem;
+    // position: relative;
+    border-radius: 100%;
+    border: 2px solid $light-color;
+  }
+  a:hover {
+    color: $primary-color;
+    border: 2px solid $primary-color;
   }
 }
 
@@ -37,15 +55,17 @@
   margin: 0.3em 0;
   font-size: 1.750em;
   font-weight: 700;
-  line-height: 1;
+  line-height: 1.2;
   color: $lightest-color;
 }
 
 .site-description {
-  margin-top: 0;
-  padding: 0 0 0.5em 0;
+  margin: 0;
+  padding: 0;
   font-size: 0.8em;
-  color: $lightest-color;
+  color: $light-color;
+  line-height: 1.2;
+  // font-style: italic;
   // border-bottom: 1px solid $primary-color;
 }
 

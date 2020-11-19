@@ -6,9 +6,9 @@ paginate = 10
 
 [params]
 author = "Alvar"
-description = "Помогаю запускать сайты с нуля"
+description = "Делаю сайты с нуля от идеи до выгрузки"
 #menu_item_separator = " • "
-avatar = "ava.jpg"
+avatar = "ava2.jpg"
 
 [menu]
   [[menu.main]]
@@ -17,7 +17,7 @@ avatar = "ava.jpg"
     url = "/"
   [[menu.main]]
     identifier = "tags"
-    name = "Тэги"
+    name = "Теги"
     url = "/tags/"
   [[menu.main]]
     identifier = "portfolio"
@@ -27,22 +27,39 @@ avatar = "ava.jpg"
 [[params.social]]
   name = "github"
   url = "https://github.com/vaga"
+  title = "Гитхаб"
+  color= "#fff"
 
 [[params.social]]
   name = "instagram"
-  url = "https://vk.com/vaga"
+  url = "https://instagram.com/alvar.alvheim"
+  title = "Инстаграм"
+  color = "#e1306c"
 
 [[params.social]]
-  name = "facebook"
-  url = "https://vk.com/vaga"
+  name = "facebook-f"
+  url = "https://www.facebook.com/alvarfromalvheim"
+  title = "Фейсбук"
+  color = "#e1306c"
 
 [[params.social]]
-  name = "youtube"
-  url = "https://vk.com/vaga"
+  name = "twitter"
+  url = "https://twitter.com/alvar_ru"
+  title = "Твиттер"
+  color = "#1da1f2"
+
 
 [[params.social]]
-  name = "telegram"
-  url = "https://t.me/vaga"
+  name = "telegram-plane"
+  url = "https://t.me/alvar_ru"
+  title = "Телега"
+  color = "#08c"
+
+[[params.social]]
+  name = "vk"
+  url = "https://vk.com/alvar_ru"
+  title = "ВК"
+  color = "#08c"
 
 [params.style]
   darkestColor = "#1F252A"
