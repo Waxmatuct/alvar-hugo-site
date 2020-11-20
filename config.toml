@@ -62,10 +62,10 @@ avatar = "ava2.jpg"
   color = "#08c"
 
 [params.style]
-  darkestColor = "#1F252A"
-  darkColor = "#343D46"
-  bodyBg = "#0b0e0f"
-  #primaryColor = "#C695C6"
-  primaryColor = "#99C794"
+  darkestColor = "#1a1a1a"  #1F252A
+  darkColor = "#262626"  #343D46
+  bodyBg = "#000000" #0b0e0f
+  primaryColor = "#60B48A"
+  #primaryColor = "#99C794"
   lightColor = "#ccc"
   lightestColor = "#fff"
