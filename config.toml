@@ -1,4 +1,4 @@
-baseURL = "https://alvar.ru/"
+baseURL = "https://alvar.ru"
 languageCode = "ru-ru"
 title = "Дмитрий Плетнев"
 theme = "m10c"
@@ -8,7 +8,7 @@ paginate = 10
 author = "Alvar"
 description = "Делаю сайты с нуля от идеи до выгрузки"
 #menu_item_separator = " • "
-avatar = "ava2.jpg"
+avatar = "avatar.jpg"
 
 [menu]
   [[menu.main]]
@@ -26,7 +26,7 @@ avatar = "ava2.jpg"
 
 [[params.social]]
   name = "github"
-  url = "https://github.com/vaga"
+  url = "https://github.com/waxmatuct"
   title = "Гитхаб"
   color= "#fff"
 
@@ -55,17 +55,11 @@ avatar = "ava2.jpg"
   title = "Телега"
   color = "#08c"
 
-[[params.social]]
-  name = "vk"
-  url = "https://vk.com/alvar_ru"
-  title = "ВК"
-  color = "#08c"
-
 [params.style]
-  darkestColor = "#1a1a1a"  #1F252A
-  darkColor = "#262626"  #343D46
-  bodyBg = "#000000" #0b0e0f
-  primaryColor = "#60B48A"
+  darkestColor = "#1C1C28"  #1F252A
+  darkColor = "#28293D"  #343D46
+  bodyBg = "#12151D" #0b0e0f
+  primaryColor = "#5dd99f"
   #primaryColor = "#99C794"
   lightColor = "#ccc"
   lightestColor = "#fff"

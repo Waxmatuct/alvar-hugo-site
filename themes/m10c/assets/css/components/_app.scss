@@ -7,7 +7,7 @@
 .app-header-menu {
   text-align: center;
   a {
-  // font-size: 1.250em;
+  font-size: 1.150em;
   text-transform: uppercase;
   font-weight: 700;
   margin: 0 0.3em;
@@ -24,7 +24,7 @@
   max-width: 15rem;
   max-height: 15rem;
   border-radius: 100%;
-  // border: 0.5rem solid $dark-color;
+  border: 0.5rem solid $dark-color;
 }
 
 .app-container {
@@ -33,7 +33,7 @@
 }
 
 .app-header-social {
-  font-size: 1em;
+  font-size: 1.2em;
   margin: 1.5em 0;
   a {
     margin: 0 .1em;
@@ -53,7 +53,7 @@
 
 .site-title {
   margin: 0.3em 0;
-  font-size: 1.750em;
+  font-size: 1.950em;
   font-weight: 700;
   line-height: 1.2;
   color: $lightest-color;
@@ -62,7 +62,7 @@
 .site-description {
   margin: 0;
   padding: 0;
-  font-size: 0.8em;
+  font-size: 0.9em;
   color: $light-color;
   line-height: 1.2;
   // font-style: italic;
